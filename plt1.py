@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt
 x = np.arange(-10, 10.01, 0.01)
 t = np.arange(-10, 11, 1)
 ###########################
+
+
+
 #subplot 1
 sp = plt.subplot(221)
 plt.plot(x, np.sin(x))
